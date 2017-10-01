@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{dd036618-5a6a-4644-a579-07d0d6660b5f}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{30f92e81-c279-43f0-bc68-ba0a53adc541}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{66d82f05-5085-4d2a-90b5-6ecf9ff27a70}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sedris_viewer_display.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sedris_viewer_graphics_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sedris_viewer_load.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sedris_viewer_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sedris_viewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

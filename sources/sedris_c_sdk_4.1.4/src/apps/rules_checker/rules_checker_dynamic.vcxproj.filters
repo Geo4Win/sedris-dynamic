@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{c5e67a1a-663d-40a7-b4b5-681ebad0d53a}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{bf8c2664-3f26-469e-a030-ba2828e44c49}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{22e6d0c9-c172-4aae-952d-bddbf9f225f7}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="prop_set_table.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="colour_table.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="control_link.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="data_table.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="feature.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="image.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="metadata.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="model.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rules_checker.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sound_symbol.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="prop_set_table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="colour_table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="control_link.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="data_table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="feature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sound_symbol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5a950ca7-0ae2-49f5-b3bd-fc6b10b18c97}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{55a30e63-38b1-4a58-abf9-8032ccd1db06}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="drm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="drm_4p1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="drm_4p0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="drm_default.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="drm_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="drm_print.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="drm_print_gen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="drm_stds.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="drm_util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="drm_util_gen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="drm_valid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="drm_valid_gen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="drm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="drm_4p0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="drm_4p1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="drm_default.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="drm_print.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="drm_stds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="drm_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="drm_types_4p0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="drm_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="drm_valid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sedris.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

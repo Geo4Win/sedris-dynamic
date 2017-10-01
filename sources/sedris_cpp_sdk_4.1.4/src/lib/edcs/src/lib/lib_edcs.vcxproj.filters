@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{afbf7ef2-3225-4e47-b5e3-5d47f7d4cb25}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{a1705025-8848-4a10-8a7e-bef95ad66665}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{f1995a6d-60da-4dee-a40e-7bb547afc895}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="edcs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="edcs_attr_dict.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="edcs_class_dict.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="edcs_conversions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="edcs_default.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="edcs_enum_dict.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="edcs_enum_labels.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="edcs_internal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="edcs_org_schema_dict.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="edcs_print.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="edcs_print_gen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="edcs_scale_dict.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="edcs_unit_dict.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="edcs_unit_equivalence_dict.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="edcs_util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="edcs_util_gen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="edcs_valid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="edcs_valid_gen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="edcs_value_characteristic_dict.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\edcs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\edcs_attr_dict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\edcs_class_dict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\edcs_conversions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\edcs_default.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\edcs_enum_dict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\edcs_group_dict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\edcs_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\edcs_org_schema_dict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\edcs_print.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\edcs_scale_dict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\edcs_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\edcs_unit_dict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\edcs_unit_equivalence_dict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\edcs_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\edcs_valid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\edcs_value_characteristic_dict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

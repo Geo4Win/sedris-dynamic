@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{64ed4aef-037c-4e37-a8bb-c496726c82c1}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c8423bfe-20b6-49ac-b45f-22f6e55effb0}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="guid">
+      <UniqueIdentifier>{ab1bdf3d-c06b-42f6-8c28-793ead4f329d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stf">
+      <UniqueIdentifier>{f4fd7e3c-62e6-40e3-a191-dbc82dc71472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{a60b8d0c-40fa-4659-815c-66496b908584}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IImplWorkspace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="URN_Resolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="guid\se_guid.c">
+      <Filter>guid</Filter>
+    </ClCompile>
+    <ClCompile Include="guid\se_md5.c">
+      <Filter>guid</Filter>
+    </ClCompile>
+    <ClCompile Include="guid\se_sha1.c">
+      <Filter>guid</Filter>
+    </ClCompile>
+    <ClCompile Include="stf\stfBlock.cpp">
+      <Filter>stf</Filter>
+    </ClCompile>
+    <ClCompile Include="stf\stfDataTable.cpp">
+      <Filter>stf</Filter>
+    </ClCompile>
+    <ClCompile Include="stf\stfDTBlock.cpp">
+      <Filter>stf</Filter>
+    </ClCompile>
+    <ClCompile Include="stf\stfDTElement.cpp">
+      <Filter>stf</Filter>
+    </ClCompile>
+    <ClCompile Include="stf\stfDTPacker.cpp">
+      <Filter>stf</Filter>
+    </ClCompile>
+    <ClCompile Include="stf\stfFields.cpp">
+      <Filter>stf</Filter>
+    </ClCompile>
+    <ClCompile Include="stf\stfFile.cpp">
+      <Filter>stf</Filter>
+    </ClCompile>
+    <ClCompile Include="stf\stfImage.cpp">
+      <Filter>stf</Filter>
+    </ClCompile>
+    <ClCompile Include="stf\stfIterator.cpp">
+      <Filter>stf</Filter>
+    </ClCompile>
+    <ClCompile Include="stf\stfMFTable.cpp">
+      <Filter>stf</Filter>
+    </ClCompile>
+    <ClCompile Include="stf\stfObject.cpp">
+      <Filter>stf</Filter>
+    </ClCompile>
+    <ClCompile Include="stf\stfTransmittal.cpp">
+      <Filter>stf</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\adler32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\compress.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\crc32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\deflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzio.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\infblock.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\infcodes.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inffast.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inftrees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\infutil.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\maketree.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\trees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\uncompr.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\zutil.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IImplWorkspace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ITransmittal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IUnresolvedObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IWorkspace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\seException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="URN_Resolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="guid\se_guid.h">
+      <Filter>guid</Filter>
+    </ClInclude>
+    <ClInclude Include="guid\se_md5.h">
+      <Filter>guid</Filter>
+    </ClInclude>
+    <ClInclude Include="guid\se_sha1.h">
+      <Filter>guid</Filter>
+    </ClInclude>
+    <ClInclude Include="guid\uuid.h">
+      <Filter>guid</Filter>
+    </ClInclude>
+    <ClInclude Include="guid\uuidP.h">
+      <Filter>guid</Filter>
+    </ClInclude>
+    <ClInclude Include="stf\stfBlock.h">
+      <Filter>stf</Filter>
+    </ClInclude>
+    <ClInclude Include="stf\stfCore.h">
+      <Filter>stf</Filter>
+    </ClInclude>
+    <ClInclude Include="stf\stfDataTable.h">
+      <Filter>stf</Filter>
+    </ClInclude>
+    <ClInclude Include="stf\stfDTBlock.h">
+      <Filter>stf</Filter>
+    </ClInclude>
+    <ClInclude Include="stf\stfDTElement.h">
+      <Filter>stf</Filter>
+    </ClInclude>
+    <ClInclude Include="stf\stfDTPacker.h">
+      <Filter>stf</Filter>
+    </ClInclude>
+    <ClInclude Include="stf\stfFields.h">
+      <Filter>stf</Filter>
+    </ClInclude>
+    <ClInclude Include="stf\stfFile.h">
+      <Filter>stf</Filter>
+    </ClInclude>
+    <ClInclude Include="stf\stfImage.h">
+      <Filter>stf</Filter>
+    </ClInclude>
+    <ClInclude Include="stf\stfIOMem.h">
+      <Filter>stf</Filter>
+    </ClInclude>
+    <ClInclude Include="stf\stfIterator.h">
+      <Filter>stf</Filter>
+    </ClInclude>
+    <ClInclude Include="stf\stfMFTable.h">
+      <Filter>stf</Filter>
+    </ClInclude>
+    <ClInclude Include="stf\stfObject.h">
+      <Filter>stf</Filter>
+    </ClInclude>
+    <ClInclude Include="stf\stfObjLoc.h">
+      <Filter>stf</Filter>
+    </ClInclude>
+    <ClInclude Include="stf\stfTransmittal.h">
+      <Filter>stf</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\deflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\infblock.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\infcodes.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffast.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffixed.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inftrees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\infutil.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\trees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zconf.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zlib.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zutil.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3e9ac592-bde4-4902-8a10-111d90c51906}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{174b675e-68a1-4c4d-ab97-cec3e80f43fa}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="se_extract_print.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="se_extract_util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="se_extract_valid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="se_extract_valid_gen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="se_insert_print.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\taccess1\se_read1_data_table.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\taccess1\se_read1_error.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\taccess1\se_read1_image.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\taccess1\se_read1_print.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\taccess1\se_read1_util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\taccess1\se_read1_valid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\taccess1\se_write1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="se_extract.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="se_extract_print.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="se_extract_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="se_extract_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="se_extract_valid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="se_insert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="se_insert_print.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="se_insert_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="se_read0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\taccess1\se_read1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\taccess1\se_read1_data_table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\taccess1\se_read1_error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\taccess1\se_read1_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\taccess1\se_read1_print.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\taccess1\se_read1_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\taccess1\se_read1_valid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="se_write0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\taccess1\se_write1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
