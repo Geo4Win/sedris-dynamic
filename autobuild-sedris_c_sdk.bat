@@ -1,12 +1,19 @@
-@echo off
+rem @echo off
 setlocal EnableExtensions EnableDelayedExpansion
 rem setlocal
 
 rem command line argument
+rem --------ACTION = build|rebuild
+set ACTION=%1
+if  "%ACTION%"=="" (set ACTION=build)
+
+
+if  not "%ACTION%"=="build" (
+if  not "%ACTION%"=="rebuild" ( goto usage))
 
 
 rem --------MSVCPP_VERSION 12.0 14.0
-set MSVCPP_VERSION=%1
+set MSVCPP_VERSION=%2
 if  "%MSVCPP_VERSION%"=="" (set MSVCPP_VERSION=12.0)
 
 
@@ -18,7 +25,7 @@ if %MSVCPP_VERSION%==14.0 (set VC_VER=vc14)
  
 
 rem --------CONFIGURATION release|debug|both
-set CONFIGURATION=%2
+set CONFIGURATION=%3
 if "%CONFIGURATION%"=="" (set CONFIGURATION=release)
 echo "CONFIGURATION" is %CONFIGURATION%
 
@@ -84,11 +91,12 @@ rem including the variable name.
 	rem set "LIB=%GlutLib%;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Lib\x64;%LIB%"
 	echo "%INCLUDE%"
 	echo "%LIB%"
-	echo "----------------------waiting-------------------------------"
-	pause
  
+	echo "----------------------------------------------------------"
+	echo "msbuild %SOLUTION% /tv:%MSVCPP_VERSION% /t:%ACTION% /p:UseEnv=false;Configuration=Release;Platform=x64"
+	pause
 
-	msbuild %SOLUTION% /tv:%MSVCPP_VERSION% /t:Clean;Build /p:Configuration=Release;Platform=x64
+	msbuild %SOLUTION% /tv:%MSVCPP_VERSION% /t:%ACTION% /p:UseEnv=true;Configuration=Release;Platform=x64
 	rem devenv.com  vcpp_dynamic.sln /deploy "Release|x64"  /out out.txt
 	
 	cd %BinaryFolder%
@@ -101,19 +109,19 @@ rem including the variable name.
 	cd
 
 
-	robocopy  /s "%SourceFolder%\lib" .\lib\Release   /njh /njs /nc /ns
-	robocopy  /s "%SourceFolder%\bin" .\bin\Release   /njh /njs  /nc /ns
-	robocopy  /s "%SourceFolder%\include" .\include  /njh /njs /nc /ns
-	cd %SourceFolder%
+	xcopy   "%SourceFolder%\lib\Release\*" .\lib\Release\   /s /e /y
+	xcopy   "%SourceFolder%\bin\Release\*" .\bin\Release\   /s /e /y
+	xcopy   "%SourceFolder%\include\*" .\include\  /s /e /y
+	cd %~dp0
 )
-
-if %CONFIG_DEBUG%==1(
+echo on
+if "%CONFIG_DEBUG%"=="1" (
 	cd %SourceFolder%
 	win32_headers.bat
 	cd %SourceFolder%
 	set GlutInclude=%~dp0\packages\glut-%VC_VER%-%PLATFORM%\include\Debug
 	set GlutLib=%~dp0\glut-%VC_VER%-%PLATFORM%\lib\Debug
-	msbuild %SOLUTION% /tv:%MSVCPP_VERSION% /t:Build /p:UseEnv=true;Configuration=Debug;Platform=x64
+	msbuild %SOLUTION% /tv:%MSVCPP_VERSION% /t:%ACTION% /p:UseEnv=false;Configuration=Debug;Platform=x64
 	
 	cd %BinaryFolder%
 
@@ -125,15 +133,13 @@ if %CONFIG_DEBUG%==1(
 	cd
 
 
-	robocopy  /s "%SourceFolder%\lib" .\lib\Debug   /njh /njs /nc /ns
-	robocopy  /s "%SourceFolder%\bin" .\bin\Debug   /njh /njs  /nc /ns
-	robocopy  /s "%SourceFolder%\include" .\include  /njh /njs /nc /ns
-	cd %SourceFolder%
+	xcopy "%SourceFolder%\lib\Debug\*" .\lib\Debug\   /s /e /y
+	xcopy "%SourceFolder%\bin\Debug\*" .\bin\Debug\   /s /e /y
+	xcopy "%SourceFolder%\include\*" .\include\   /s /e /y
+	cd %~dp0
 	
 )
 
-
-cd %SourceFolder%
 echo.
 echo -----------------------------
 echo - build completed.             
